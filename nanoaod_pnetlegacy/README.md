@@ -16,7 +16,7 @@ scram b -j 10
 
 - Clone repo
 ```
-git clone git@github.com:ammitra/generateCMS.git
+git clone -b matej_XHY git@github.com:ammitra/generateCMS.git
 cd generateCMS/nanoaod_pnetlegacy/
 ```
 
