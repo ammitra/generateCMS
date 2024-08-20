@@ -1,5 +1,10 @@
 # Production nanoAODv12
 
+- Start SL7 container
+```
+cmssw-el7 -p --bind `readlink $HOME` --bind `readlink -f ${HOME}/nobackup/` --bind /uscms_data --bind /cvmfs
+```
+
 - Get release
 ```
 cmsrel CMSSW_13_0_13
