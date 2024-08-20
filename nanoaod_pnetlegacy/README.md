@@ -11,7 +11,7 @@ scram b -j 10
 
 - Clone repo
 ```
-git clone https://github.com/cmantill/generateCMS.git
+git clone git@github.com:ammitra/generateCMS.git
 cd generateCMS/nanoaod_pnetlegacy/
 ```
 
@@ -19,5 +19,5 @@ cd generateCMS/nanoaod_pnetlegacy/
 
 - Submit samples, specify era, key and username, e.g.:
 ```
-python3 submit_nanoaod.py --era 2022EE --key mc --username cmantill
+python3 submit_nanoaod.py --era 2016APV --key mc --username <username>
 ```
